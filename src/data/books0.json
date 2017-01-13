@@ -1,0 +1,41 @@
+[{
+    "bookId":"1",
+    "index": "1",
+    "name": "用AngularJS开发下一代WEB应用",
+    "type": "计算机",
+    "author": "大漠穷秋",
+    "pubTime": "2014-01-01",
+    "price":"35"
+}, {
+    "bookId":"2",
+    "index": "2",
+    "name": "Ext江湖",
+    "type": "计算机",
+    "author": "大漠穷秋",
+    "pubTime": "2014-01-01",
+    "price":"35"
+}, {
+    "bookId":"3",
+    "index": "3",
+    "name": "ActionScript3.0游戏设计基础（第二版）",
+    "type": "金融",
+    "author": "大漠穷秋",
+    "pubTime": "2014-01-01",
+    "price":"35"
+}, {
+    "bookId":"4",
+    "index": "4",
+    "name": "JS权威指南",
+    "type": "哲学",
+    "author": "AAA",
+    "pubTime": "2014-01-01",
+    "price":"35"
+}, {
+    "bookId":"5",
+    "index": "5",
+    "name": "JS高级程序语言设计",
+    "type": "高端办公",
+    "author": "DDD",
+    "pubTime": "2014-01-01",
+    "price":"35"
+}]

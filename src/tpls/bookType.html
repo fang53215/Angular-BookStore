@@ -1,0 +1,16 @@
+<div class="row" ng-controller="BookTypeCtrl">
+    <div class="col-md-12">
+        <div class="list-group">
+            <a ng-class="{arrow_down:isDown,arrow_up:isUp}" href="javascript:void(0);" class="list-group-item active" ng-click="ToggleList()">
+				书籍类型
+            </a>
+            <div class="toggleList" ng-show="toggleList.show">
+                <a ui-sref="booklist({bookType:0})" class="list-group-item" ui-sref-active="active">全部</a>
+                <a ui-sref="booklist({bookType:1})" class="list-group-item" ui-sref-active="active">计算机</a>
+                <a ui-sref="booklist({bookType:2})" class="list-group-item" ui-sref-active="active">金融</a>
+                <a ui-sref="booklist({bookType:3})" class="list-group-item" ui-sref-active="active">哲学</a>
+                <a ui-sref="booklist({bookType:4})" class="list-group-item" ui-sref-active="active">高端办公</a>
+            </div>
+        </div>
+    </div>
+</div>

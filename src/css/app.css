@@ -1,0 +1,28 @@
+.nav, .pagination, .carousel, .panel-title a {
+    cursor: pointer;
+}
+.gridStyle {
+    border: 1px solid rgb(212, 212, 212);
+    height: 300px
+}
+
+
+.container{
+	margin-top: 20px;
+}
+.error{
+	display: block;
+	color: red;
+	height: 34px;
+	line-height: 34px;
+}
+.arrow_down{
+	background-image: url(../image/arrow_down.png);
+	background-repeat: no-repeat;
+	background-position: right center;
+}
+.arrow_up{
+	background-image: url(../image/arrow_up.png);
+	background-repeat: no-repeat;
+	background-position: right center;
+}
